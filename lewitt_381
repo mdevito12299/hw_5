@@ -1,0 +1,27 @@
+function setup() {
+  createCanvas(600, 300);
+}
+
+function draw() {
+  background(220);
+
+noStroke();
+ 
+//left
+fill(180);
+rect(0,0,300,150)
+  
+// right
+fill(255, 204, 0);
+rect(300,0,300,150);
+  
+//bottom left
+fill(255,0,90);
+rect(0,150,300,200);
+  
+//bottom right
+fill(0,100,255);
+rect(300,150,300,300)
+  
+  
+}
